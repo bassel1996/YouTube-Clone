@@ -5,13 +5,17 @@
     bottom: 0;
     width: 70px;
     z-index: 200;
-}
+    padding-left: 5px;
+    background-color: white;
+   }
+
 .side-bar-link{
     height: 74px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 .side-bar-link:hover{
     background-color: rgb(157, 157, 157);

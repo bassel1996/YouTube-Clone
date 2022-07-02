@@ -22,14 +22,15 @@
     background-color: black;
     color: white;
     position: absolute;
-    bottom: 8px;
+    bottom: 20px;
     right: 5px;
 }
 .video-Picture{
     width: 100%;
+    margin-bottom: 8px;
 }
 .channel-picture{
-    width: 100%;
+    width:  36px;
     border-radius: 50%;
 }
 .info-div{
@@ -40,7 +41,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     
 }
 .author, 
