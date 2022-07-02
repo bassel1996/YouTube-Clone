@@ -1,8 +1,8 @@
 p{
-    font-family: Roboto, Arial;
     margin: 0;
 }
 body{
+    font-family: Roboto, Arial;
     margin: 0;
     padding-top: 75px;
     padding-left: 96px;
@@ -14,4 +14,24 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 50px;
+}
+
+@media (max-width: 750px) {
+    .grid-div{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 751px) and (max-width: 999px){
+    .grid-div{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1000px){
+    .grid-div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

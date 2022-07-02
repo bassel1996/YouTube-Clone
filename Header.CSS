@@ -36,7 +36,6 @@
     align-items: center;
 }
 .search-bar::placeholder{
-    font-family: Roboto, Arial;
     font-size: 16px;
 }
 .search-bar{
@@ -44,10 +43,8 @@
     flex: 1;
     padding-left: 10px;
     font-size: 16px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(188, 188, 188);
     border-radius: 2px;
+    border: 1px solid  rgb(188, 188, 188);
     box-shadow: inset 1px 2px 3px black (0, 0, 0, 0.05);
     width: 0;
 }
@@ -76,7 +73,6 @@
 .search-button .tooltip,
 .voice-search-button .tooltip,
 .upload-icon-div .tooltip{
-    font-family: Roboto, Arial;
     position: absolute;
     background-color: grey;
     color: white;
@@ -134,7 +130,6 @@
     right: -5px;
     background-color: rgb(172, 2, 2);
     color: white;
-    font-family: Roboto, Arial;
     font-size: 11px;
     padding-left: 6px;
     padding-right: 6px;
