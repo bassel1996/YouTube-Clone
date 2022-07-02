@@ -4,6 +4,22 @@
     left: 0;
     bottom: 0;
     width: 70px;
-    background-color: rgb(255, 0, 0);
-
+    z-index: 200;
+}
+.side-bar-link{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.side-bar-link:hover{
+    background-color: rgb(157, 157, 157);
+}
+.side-bar-link img{
+    height: 24px;
+}
+.side-bar-link div{
+    font-family: Roboto, Ariel;
+    font-size: 10px;
 }
